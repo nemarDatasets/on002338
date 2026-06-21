@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "A multi-modal human neuroimaging dataset for data integration: simultaneous EEG and fMRI acquisition during a motor imagery neurofeedback task: XP2",
-  "description": "This dataset comprises simultaneous 64-channel EEG and 3T fMRI recordings from 16 subjects performing motor imagery and neurofeedback tasks. Participants were randomly assigned to receive either mono-dimensional or bi-dimensional neurofeedback during five experimental runs with alternating rest and task blocks. The dataset includes raw and preprocessed EEG data, BOLD fMRI acquisitions, and computed neurofeedback scores from both modalities, providing a comprehensive resource for multimodal neuroimaging data integration research.",
-  "methods_description": "EEG was recorded at 5 kHz using a 64-channel MR-compatible system (Brain Products) with FCz reference and AFz ground. fMRI was acquired using 3T Siemens Verio with echo-planar imaging (TR=1s, TE=23ms, 2×2×4mm resolution, 16 slices). EEG preprocessing included gradient artifact correction, downsampling to 200 Hz, low-pass filtering at 50 Hz, and ballistocardiogram artifact correction. The experimental protocol consisted of 5 runs with 20-second block design alternating rest and task periods.",
+  "description": "This dataset comprises simultaneous 64-channel EEG and 3T fMRI recordings from 16 subjects performing motor imagery and neurofeedback tasks. Participants were randomly assigned to receive either mono-dimensional or bi-dimensional neurofeedback displays during five experimental runs with alternating rest and task blocks. The dataset includes raw EEG data in Brain Vision format, preprocessed EEG data, BOLD fMRI acquisitions, computed neurofeedback scores from both modalities (EEG and fMRI), and event timing files, providing a comprehensive resource for multimodal neuroimaging data integration studies.",
+  "methods_description": "EEG was recorded at 5 kHz using a 64-channel MR-compatible system (Brain Products) with FCz reference and AFz ground. fMRI was acquired using 3T Siemens Verio with echo-planar imaging (EPI): TR=1s, TE=23ms, resolution 2×2×4mm, 16 slices. EEG preprocessing included gradient artifact correction, downsampling to 200Hz, low-pass filtering (50Hz), ballistocardiogram artifact correction, and segmentation. The experimental protocol consisted of 5 runs with 20-second block design alternating rest and task periods.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -40,6 +40,15 @@
     },
     {
       "term": "simultaneous EEG-fMRI"
+    },
+    {
+      "term": "motor cortex"
+    },
+    {
+      "term": "real-time feedback"
+    },
+    {
+      "term": "event-related desynchronization"
     }
   ],
   "related_identifiers": [
